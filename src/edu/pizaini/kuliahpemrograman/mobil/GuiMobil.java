@@ -20,9 +20,15 @@ public class GuiMobil {
             showInfo();
         });
         buttonIncreaseSpeed.addActionListener(actionEvent -> {
+            /**
+             * Tambahkan 1 kecepatan
+             */
             this.mobil.tambahKecepatan(1);
         });
         buttonDecreaseSpeed.addActionListener(actionEvent -> {
+            /**
+             * Kurangi 1 kecepatan
+             */
             this.mobil.kurangiKecepatan(1);
         });
 
